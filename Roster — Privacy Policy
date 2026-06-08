@@ -1,0 +1,56 @@
+# Roster — Privacy Policy
+
+**Last updated: 8 June 2026**
+
+## Overview
+
+Roster is a Chrome extension that displays job titles and departments for participants in Google Meet calls, using your organisation's Google Workspace directory.
+
+## What data is accessed
+
+Roster accesses the following data to function:
+
+- **Your Google account identity** — used to authenticate you via OAuth 2.0 so the extension can query the Google Workspace People API on your behalf
+- **Google Workspace directory profiles** — name, job title, department, and profile photo of participants in your Google Meet call, retrieved from your organisation's directory
+- **Google Meet page content** — the extension reads participant names from the active Meet call in your browser tab
+
+## What data is stored
+
+Roster stores only one piece of data locally on your device:
+
+- **OAuth access token** — saved in your browser's local extension storage so you do not have to sign in on every call. This token is stored only on your device and is never transmitted to any external server.
+
+## What data is NOT collected
+
+Roster does not:
+
+- Collect, transmit, or store any personal data on external servers
+- Track your browsing activity
+- Record meeting content, audio, or video
+- Share any data with third parties
+- Use analytics or advertising tools
+
+## How data is used
+
+Data retrieved from the Google Workspace directory is used solely to display participant information within the extension overlay during your Google Meet call. It is not stored beyond the current session and is never sent anywhere outside your browser.
+
+## Third-party services
+
+Roster communicates with the following Google APIs:
+
+- **Google OAuth 2.0** — for authentication
+- **Google People API** — to retrieve Workspace directory profiles
+
+These services are subject to [Google's Privacy Policy](https://policies.google.com/privacy).
+
+## Data retention
+
+No personal data is retained by Roster beyond your browser session. The OAuth token stored locally can be cleared at any time by removing the extension.
+
+## Changes to this policy
+
+If this policy is updated, the date at the top of this page will be revised. Continued use of the extension after changes constitutes acceptance of the updated policy.
+
+## Contact
+
+This extension is maintained internally. If you have questions about this privacy policy, please contact your IT team.
